@@ -7,10 +7,11 @@ Modified details
 4) minSectorDifference : default (3) -> 1 @digitizer.mac  
 5) source : twogamma   
 6) OutPutFileOption : Root -> Ascii   
+7) source : twogamma -> Pencil Beam  
+ ( reference direction is +z. if rotation axis is y with -90 degree, beam direction is -x)
 
 
 All rights of "benchPET example" reserved to Gate collaboration.  
-
 
 
 
