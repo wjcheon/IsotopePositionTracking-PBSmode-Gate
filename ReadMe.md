@@ -9,9 +9,11 @@ Modified details
 6) OutPutFileOption : Root -> Ascii   
 **7) source : twogamma -> Pencil Beam**  
 **( reference direction is +z. if rotation axis is y with -90 degree, beam direction is -x)**
+**( beam position (0.,0.,-15.) mm , direction +z )**  
+8) fiducial marker : Pure Zinc (position 0.,0.,0.)
 
 
-date: 2016.11.17.
+date: 2016.11.24.
 All rights of "benchPET example" reserved to Gate collaboration.  
 
 
