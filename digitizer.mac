@@ -8,27 +8,24 @@
 /gate/digitizer/Singles/insert thresholder
 /gate/digitizer/Singles/thresholder/setThreshold 459.9 keV
 /gate/digitizer/Singles/insert upholder
-/gate/digitizer/Singles/upholder/setUphold 562.1 keV
+/gate/digitizer/Singles/upholder/setUphold 521.1 keV
 
 
 
 #	C O I N C I    S O R T E R 
-/gate/digitizer/Coincidences/setWindow 100. ns
+#	C O I N C I    S O R T E R 
+/gate/digitizer/Coincidences/setWindow 3. ns
+/gate/digitizer/Coincidences/MultiplesPolicy  takeWinnerOfGoods
 /gate/digitizer/Coincidences/minSectorDifference 1
-/gate/digitizer/Coincidences/MultiplesPolicy  killAll
-
-# takeAllGoods
-# takeWinnerOfGoods
-# takeWinnerIfIsGood
-# takeWinnerIfAllAreGoods
-# keepIfAnyIsGood
-# keepIfAllAreGoods
-# killAllIfMultipleGoods
-# killAll
+#/gate/digitizer/Coincidences/allPulseOpenCoincGate true
 
 /gate/digitizer/name delay
 /gate/digitizer/insert coincidenceSorter
-/gate/digitizer/delay/setWindow 10. ns
+#/gate/digitizer/delay/setWindow 120. ns
 #/gate/digitizer/delay/setOffset 500. ns
-#/gate/digitizer/delay/MultiplesPolicy  takeWinnerOfGoods
+#/gate/digitizer/delay/setWindow 1. ns
+#/gate/digitizer/delay/setOffset 500. ns
+
 /gate/digitizer/delay/MultiplesPolicy  takeWinnerOfGoods
+
+

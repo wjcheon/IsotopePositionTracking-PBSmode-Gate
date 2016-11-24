@@ -27,6 +27,7 @@
 /gate/physics/addProcess RadioactiveDecay
 
 /gate/physics/addPhysicsList QGSP_BERT_EMV
+/gate/physics/addPhysicsList QGSP_BERT_HP_EMY
 
 /gate/physics/processList Enabled
 /gate/physics/processList Initialized

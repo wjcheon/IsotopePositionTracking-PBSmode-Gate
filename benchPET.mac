@@ -12,6 +12,8 @@
 
 /control/execute phantom.mac
 
+/control/execute fiducial.mac
+
 /control/execute physics.mac
 
 
