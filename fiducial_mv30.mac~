@@ -1,0 +1,19 @@
+#       F I D U C I A L  
+/gate/NEMACylinder/daughters/name fiducial
+/gate/NEMACylinder/daughters/insert sphere
+#/gate/world/daughters/name fiducial
+#/gate/world/daughters/insert sphere
+/gate/fiducial/geometry/setRmin 0 mm
+/gate/fiducial/geometry/setRmax 10 mm
+/gate/fiducial/geometry/setPhiStart 0 deg
+/gate/fiducial/geometry/setDeltaPhi 360 deg
+/gate/fiducial/geometry/setThetaStart 0 deg
+/gate/fiducial/geometry/setDeltaTheta 360 deg
+/gate/fiducial/placement/setTranslation 30. 0. 0. mm
+/gate/fiducial/setMaterial Zinc_Material 
+
+/gate/fiducial/vis/forceSolid
+/gate/fiducial/vis/setColor white
+
+
+

@@ -57,7 +57,7 @@
 #/gate/output/root/setRootdelayFlag 1
 
 /gate/output/ascii/enable
-/gate/output/ascii/setFileName benchmarkPET_Ascii
+/gate/output/ascii/setFileName IsotopeFinder_Water_mvX3cm
 /gate/output/ascii/setOutFileHitsFlag 0
 /gate/output/ascii/setOutFileSinglesFlag 1
 /gate/output/ascii/setOutFileCoincidencesFlag 1

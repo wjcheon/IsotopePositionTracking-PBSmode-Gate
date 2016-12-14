@@ -1,0 +1,16 @@
+#       F I D U C I A L  
+/gate/NEMACylinder/daughters/name fiducial
+/gate/NEMACylinder/daughters/insert cylinder
+/gate/fiducial/geometry/setRmax   0.5 mm
+/gate/fiducial/geometry/setHeight 3 mm
+
+/gate/fiducial/setMaterial Zinc_Material 
+
+/gate/fiducial/placement/setTranslation 0. 0. 0. cm
+
+/gate/fiducial/vis/setVisible 1
+/gate/fiducial/vis/forceSolid
+/gate/fiducial/vis/setColor white
+
+
+
